@@ -3,6 +3,8 @@ description: This plugin allows Flutter desktop apps to create native context me
 version: 0.1.2
 homepage: https://github.com/leanflutter/contextual_menu
 
+publish_to: none
+
 platforms:
   linux:
   macos:
@@ -16,7 +18,9 @@ dependencies:
   flutter:
     sdk: flutter
 
-  menu_base: ^0.1.1
+  menu_base: 
+    git:
+      url: https://github.com/yuanhoujun/menu_base.git
 
 dev_dependencies:
   flutter_test:
